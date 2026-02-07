@@ -1,0 +1,64 @@
+body header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(81, 107, 11);
+}
+
+body header .link {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(81, 107, 11);
+    background-color:#cbfdff;
+}
+
+body .title {
+    color: rgb(81, 107, 11);
+}
+
+body .text {
+    color: rgb(81, 107, 11);
+    font-size: 1.5em;
+}
+
+body .Projects {
+    text-align: center;
+}
+
+body .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    width: auto;
+    border: 2px solid rgb(121, 170, 75);
+    place-items: center;
+
+    .grid-element {
+        background-color: rgb(240, 198, 229);
+        border: 2px solid rgb(220, 137, 198);
+        color: rgb(179, 67, 149);
+        padding: 1em;
+        text-align: center;
+    }
+
+    .image{
+        max-height: 20em;
+        min-height: 15em;
+    }
+
+    .title {
+        padding: 15%;
+    }
+
+    .subtitle {
+        padding: 15%;
+    }
+}
+
+body p {
+    font-size: 1.5em;
+}
+
+body {
+    background-color: rgb(197, 236, 161);
+}
